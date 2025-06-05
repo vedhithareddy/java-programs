@@ -1,0 +1,14 @@
+public class NaturalNumbers{
+    static int sumnaturalnumbers(int n){
+        if(n==1){
+            return 1;
+        }else{
+            return n+sumnaturalnumbers(n-1);
+        }
+    }
+    public static void main (String []args){
+        int numbers = 10;
+        int result = sumnaturalnumbers(numbers);
+        System.out.println("sum of first " +numbers+ " natural numbers is "+result);
+    }
+}
