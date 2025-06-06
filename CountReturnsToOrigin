@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main {
+public class CountReturnsToOrigin {
     public static int countReturnsToOrigin(int[]A,int N) {
         int position = 0,count = 0;
         for (int i = 0; i < N; i++) {
